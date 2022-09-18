@@ -1,0 +1,52 @@
+﻿@model MyProject.Models.ViewModels.ProductVM
+
+<form method="post" asp-area="Admin" asp-action="CreateUpdate" asp-controller="Product" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Product.Id" />
+    <input type="hidden" asp-for="Product.ImageUrl" />
+    <img src="@Model.Product.ImageUrl" width="100" height="100" />
+    <div class="border p-3 mt-4">
+        <div row pb-3>
+            <h4>@((Model.Product == null || Model.Product.Id == 0) ? "Create" : "Update") Product</h4>
+            <hr />
+        </div>
+        <div row mb-3>
+            <label asp-for="Product.Name"> </label>
+            <input asp-for="Product.Name" type="text" class="form-control" />
+        </div>
+        <div row mb-3>
+            <label asp-for="Product.Description"> </label>
+            <input asp-for="Product.Description" type="text" class="form-control" />
+        </div>
+        <div row mb-3>
+            <label asp-for="Product.Price"> </label>
+            <input asp-for="Product.Price" type="number" class="form-control" />
+        </div>
+        <div row mb-3>
+            <label asp-for="Product.ImageUrl"> </label>
+            <input type="file" id="ImageFile" name="file" class="form-control" />
+        </div>
+        <div row mb-3>
+            <label asp-for="Product.CategoryId"> </label>
+            <select asp-for="Product.CategoryId" asp-items="@Model.Categories" class="form-select">
+                <option selected disabled>Select Category</option>
+            </select>
+        </div>
+        <button class="btn btn-primary" onclick="return ValidateEmpty()" style="margin:20px" type="submit"> @((Model.Product == null || Model.Product.Id == 0) ? "Create" : "Update") </button>
+    </div>
+</form>
+
+@section Scripts{
+    <script>
+        function ValidateEmpty() {
+            if (document.getElementById("ImageFile").value == "") {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Upload Image!',
+                });
+                return false;
+            }
+            return true;
+        }
+    </script>
+            }
