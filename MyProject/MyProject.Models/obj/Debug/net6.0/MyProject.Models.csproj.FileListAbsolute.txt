@@ -10,3 +10,15 @@ D:\New Project\NewProject\New folder\MyProject\MyProject.Models\obj\Debug\net6.0
 D:\New Project\NewProject\New folder\MyProject\MyProject.Models\obj\Debug\net6.0\refint\MyProject.Models.dll
 D:\New Project\NewProject\New folder\MyProject\MyProject.Models\obj\Debug\net6.0\MyProject.Models.pdb
 D:\New Project\NewProject\New folder\MyProject\MyProject.Models\obj\Debug\net6.0\ref\MyProject.Models.dll
+C:\Users\user\Desktop\MySoft\MyGitDemo\Asp.Net6MVCFullDemoProject\MyProject\MyProject.Models\bin\Debug\net6.0\MyProject.Models.deps.json
+C:\Users\user\Desktop\MySoft\MyGitDemo\Asp.Net6MVCFullDemoProject\MyProject\MyProject.Models\bin\Debug\net6.0\MyProject.Models.dll
+C:\Users\user\Desktop\MySoft\MyGitDemo\Asp.Net6MVCFullDemoProject\MyProject\MyProject.Models\bin\Debug\net6.0\MyProject.Models.pdb
+C:\Users\user\Desktop\MySoft\MyGitDemo\Asp.Net6MVCFullDemoProject\MyProject\MyProject.Models\obj\Debug\net6.0\MyProject.Models.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\MySoft\MyGitDemo\Asp.Net6MVCFullDemoProject\MyProject\MyProject.Models\obj\Debug\net6.0\MyProject.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\MySoft\MyGitDemo\Asp.Net6MVCFullDemoProject\MyProject\MyProject.Models\obj\Debug\net6.0\MyProject.Models.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\MySoft\MyGitDemo\Asp.Net6MVCFullDemoProject\MyProject\MyProject.Models\obj\Debug\net6.0\MyProject.Models.AssemblyInfo.cs
+C:\Users\user\Desktop\MySoft\MyGitDemo\Asp.Net6MVCFullDemoProject\MyProject\MyProject.Models\obj\Debug\net6.0\MyProject.Models.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\MySoft\MyGitDemo\Asp.Net6MVCFullDemoProject\MyProject\MyProject.Models\obj\Debug\net6.0\MyProject.Models.dll
+C:\Users\user\Desktop\MySoft\MyGitDemo\Asp.Net6MVCFullDemoProject\MyProject\MyProject.Models\obj\Debug\net6.0\refint\MyProject.Models.dll
+C:\Users\user\Desktop\MySoft\MyGitDemo\Asp.Net6MVCFullDemoProject\MyProject\MyProject.Models\obj\Debug\net6.0\MyProject.Models.pdb
+C:\Users\user\Desktop\MySoft\MyGitDemo\Asp.Net6MVCFullDemoProject\MyProject\MyProject.Models\obj\Debug\net6.0\ref\MyProject.Models.dll
