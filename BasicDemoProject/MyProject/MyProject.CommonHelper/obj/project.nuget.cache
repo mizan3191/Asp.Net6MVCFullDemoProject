@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Vmugcl2uEfCex5MYVoja9hxgSy0nba8xKuhYqEhlLCBsSNMt6d5CMnlqxDw8DLE1xVv4dqqF1f5e5UbGyfQElA==",
+  "dgSpecHash": "MeimlnRc1fPRZw7sq6rjkdnkPP/QmppC9bmZls4dYaVZF4UNZhchqNn/suTUSKDO2DNLvba2w+t3vwZeQ8E5dw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\MySoft\\MyGitDemo\\BasicDemoProject\\MyProject\\MyProject.CommonHelper\\MyProject.CommonHelper.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\MySoft\\MyGitDemo\\Asp.Net6MVCFullDemoProject\\BasicDemoProject\\MyProject\\MyProject.CommonHelper\\MyProject.CommonHelper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.8\\microsoft.aspnetcore.cryptography.internal.6.0.8.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.8\\microsoft.aspnetcore.cryptography.keyderivation.6.0.8.nupkg.sha512",

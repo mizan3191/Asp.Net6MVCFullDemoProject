@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qA9Z/3T/+hkvvko0T2FM/Cx0BlojKJRqrBEXnne6x/My0bCdgn5K/JBmoowfMX0K9koKTtPrWI+DUWnCttPCNQ==",
+  "dgSpecHash": "75ipzOxLhJLtR/hKaVKWEH/GQg6wn+11lIX/z8mKm3S8h6V0UjGroDpG+bPjuBj7YmjJwVZh6VEKlnw0eSm4pA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\MySoft\\MyGitDemo\\BasicDemoProject\\MyProject\\MyProject.DataAccess\\MyProject.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\MySoft\\MyGitDemo\\Asp.Net6MVCFullDemoProject\\BasicDemoProject\\MyProject\\MyProject.DataAccess\\MyProject.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

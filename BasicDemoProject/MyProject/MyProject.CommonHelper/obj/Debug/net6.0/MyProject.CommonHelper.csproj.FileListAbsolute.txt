@@ -10,3 +10,15 @@ C:\Users\user\Desktop\MySoft\MyGitDemo\BasicDemoProject\MyProject\MyProject.Comm
 C:\Users\user\Desktop\MySoft\MyGitDemo\BasicDemoProject\MyProject\MyProject.CommonHelper\obj\Debug\net6.0\refint\MyProject.CommonHelper.dll
 C:\Users\user\Desktop\MySoft\MyGitDemo\BasicDemoProject\MyProject\MyProject.CommonHelper\obj\Debug\net6.0\MyProject.CommonHelper.pdb
 C:\Users\user\Desktop\MySoft\MyGitDemo\BasicDemoProject\MyProject\MyProject.CommonHelper\obj\Debug\net6.0\ref\MyProject.CommonHelper.dll
+C:\Users\user\Desktop\MySoft\MyGitDemo\Asp.Net6MVCFullDemoProject\BasicDemoProject\MyProject\MyProject.CommonHelper\bin\Debug\net6.0\MyProject.CommonHelper.deps.json
+C:\Users\user\Desktop\MySoft\MyGitDemo\Asp.Net6MVCFullDemoProject\BasicDemoProject\MyProject\MyProject.CommonHelper\bin\Debug\net6.0\MyProject.CommonHelper.dll
+C:\Users\user\Desktop\MySoft\MyGitDemo\Asp.Net6MVCFullDemoProject\BasicDemoProject\MyProject\MyProject.CommonHelper\bin\Debug\net6.0\MyProject.CommonHelper.pdb
+C:\Users\user\Desktop\MySoft\MyGitDemo\Asp.Net6MVCFullDemoProject\BasicDemoProject\MyProject\MyProject.CommonHelper\obj\Debug\net6.0\MyProject.CommonHelper.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\MySoft\MyGitDemo\Asp.Net6MVCFullDemoProject\BasicDemoProject\MyProject\MyProject.CommonHelper\obj\Debug\net6.0\MyProject.CommonHelper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\MySoft\MyGitDemo\Asp.Net6MVCFullDemoProject\BasicDemoProject\MyProject\MyProject.CommonHelper\obj\Debug\net6.0\MyProject.CommonHelper.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\MySoft\MyGitDemo\Asp.Net6MVCFullDemoProject\BasicDemoProject\MyProject\MyProject.CommonHelper\obj\Debug\net6.0\MyProject.CommonHelper.AssemblyInfo.cs
+C:\Users\user\Desktop\MySoft\MyGitDemo\Asp.Net6MVCFullDemoProject\BasicDemoProject\MyProject\MyProject.CommonHelper\obj\Debug\net6.0\MyProject.CommonHelper.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\MySoft\MyGitDemo\Asp.Net6MVCFullDemoProject\BasicDemoProject\MyProject\MyProject.CommonHelper\obj\Debug\net6.0\MyProject.CommonHelper.dll
+C:\Users\user\Desktop\MySoft\MyGitDemo\Asp.Net6MVCFullDemoProject\BasicDemoProject\MyProject\MyProject.CommonHelper\obj\Debug\net6.0\refint\MyProject.CommonHelper.dll
+C:\Users\user\Desktop\MySoft\MyGitDemo\Asp.Net6MVCFullDemoProject\BasicDemoProject\MyProject\MyProject.CommonHelper\obj\Debug\net6.0\MyProject.CommonHelper.pdb
+C:\Users\user\Desktop\MySoft\MyGitDemo\Asp.Net6MVCFullDemoProject\BasicDemoProject\MyProject\MyProject.CommonHelper\obj\Debug\net6.0\ref\MyProject.CommonHelper.dll

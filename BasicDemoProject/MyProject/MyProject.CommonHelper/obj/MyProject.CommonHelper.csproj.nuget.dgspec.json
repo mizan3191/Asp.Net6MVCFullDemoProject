@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\MySoft\\MyGitDemo\\BasicDemoProject\\MyProject\\MyProject.CommonHelper\\MyProject.CommonHelper.csproj": {}
+    "C:\\Users\\user\\Desktop\\MySoft\\MyGitDemo\\Asp.Net6MVCFullDemoProject\\BasicDemoProject\\MyProject\\MyProject.CommonHelper\\MyProject.CommonHelper.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\MySoft\\MyGitDemo\\BasicDemoProject\\MyProject\\MyProject.CommonHelper\\MyProject.CommonHelper.csproj": {
+    "C:\\Users\\user\\Desktop\\MySoft\\MyGitDemo\\Asp.Net6MVCFullDemoProject\\BasicDemoProject\\MyProject\\MyProject.CommonHelper\\MyProject.CommonHelper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\MySoft\\MyGitDemo\\BasicDemoProject\\MyProject\\MyProject.CommonHelper\\MyProject.CommonHelper.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\MySoft\\MyGitDemo\\Asp.Net6MVCFullDemoProject\\BasicDemoProject\\MyProject\\MyProject.CommonHelper\\MyProject.CommonHelper.csproj",
         "projectName": "MyProject.CommonHelper",
-        "projectPath": "C:\\Users\\user\\Desktop\\MySoft\\MyGitDemo\\BasicDemoProject\\MyProject\\MyProject.CommonHelper\\MyProject.CommonHelper.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\MySoft\\MyGitDemo\\Asp.Net6MVCFullDemoProject\\BasicDemoProject\\MyProject\\MyProject.CommonHelper\\MyProject.CommonHelper.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\MySoft\\MyGitDemo\\BasicDemoProject\\MyProject\\MyProject.CommonHelper\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\MySoft\\MyGitDemo\\Asp.Net6MVCFullDemoProject\\BasicDemoProject\\MyProject\\MyProject.CommonHelper\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

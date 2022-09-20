@@ -11685,11 +11685,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\MySoft\\MyGitDemo\\BasicDemoProject\\MyProject\\MyProject.Web\\MyProject.Web.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\MySoft\\MyGitDemo\\Asp.Net6MVCFullDemoProject\\BasicDemoProject\\MyProject\\MyProject.Web\\MyProject.Web.csproj",
       "projectName": "MyProject.Web",
-      "projectPath": "C:\\Users\\user\\Desktop\\MySoft\\MyGitDemo\\BasicDemoProject\\MyProject\\MyProject.Web\\MyProject.Web.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\MySoft\\MyGitDemo\\Asp.Net6MVCFullDemoProject\\BasicDemoProject\\MyProject\\MyProject.Web\\MyProject.Web.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\MySoft\\MyGitDemo\\BasicDemoProject\\MyProject\\MyProject.Web\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\MySoft\\MyGitDemo\\Asp.Net6MVCFullDemoProject\\BasicDemoProject\\MyProject\\MyProject.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -11712,11 +11712,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\user\\Desktop\\MySoft\\MyGitDemo\\BasicDemoProject\\MyProject\\MyProject.CommonHelper\\MyProject.CommonHelper.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\MySoft\\MyGitDemo\\BasicDemoProject\\MyProject\\MyProject.CommonHelper\\MyProject.CommonHelper.csproj"
+            "C:\\Users\\user\\Desktop\\MySoft\\MyGitDemo\\Asp.Net6MVCFullDemoProject\\BasicDemoProject\\MyProject\\MyProject.CommonHelper\\MyProject.CommonHelper.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\MySoft\\MyGitDemo\\Asp.Net6MVCFullDemoProject\\BasicDemoProject\\MyProject\\MyProject.CommonHelper\\MyProject.CommonHelper.csproj"
             },
-            "C:\\Users\\user\\Desktop\\MySoft\\MyGitDemo\\BasicDemoProject\\MyProject\\MyProject.DataAccess\\MyProject.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\MySoft\\MyGitDemo\\BasicDemoProject\\MyProject\\MyProject.DataAccess\\MyProject.DataAccess.csproj"
+            "C:\\Users\\user\\Desktop\\MySoft\\MyGitDemo\\Asp.Net6MVCFullDemoProject\\BasicDemoProject\\MyProject\\MyProject.DataAccess\\MyProject.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\MySoft\\MyGitDemo\\Asp.Net6MVCFullDemoProject\\BasicDemoProject\\MyProject\\MyProject.DataAccess\\MyProject.DataAccess.csproj"
             }
           }
         }

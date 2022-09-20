@@ -2,11 +2,30 @@
 
 <form method="post" asp-area="Admin" asp-action="CreateUpdate" asp-controller="Product" enctype="multipart/form-data">
     <input type="hidden" asp-for="Product.Id" />
+    <input type="hidden" asp-for="Product.CreatedAt" value="@System.DateTime.UtcNow" />
     <input type="hidden" asp-for="Product.ImageUrl" />
-    <img src="@Model.Product.ImageUrl" width="100" height="100" />
+
+   
+
     <div class="border p-3 mt-4">
-        <div row pb-3>
-            <h4>@((Model.Product == null || Model.Product.Id == 0) ? "Create" : "Update") Product</h4>
+        <div pb-3>
+            <div col-md-4>
+                <h4>@((Model.Product == null || Model.Product.Id == 0) ? "Create" : "Update") Product</h4>
+            </div>
+             <div col-md-4>
+                @if (@Model.Product.FileData != null || @Model.Product.ImageUrl != null)
+                {
+                    <div class="col-md-6">
+
+                        @{
+                            var base64 = Convert.ToBase64String(@Model.Product.FileData);
+                            var FileSrc = string.Format("data:image/gif;base64,{0}", base64);
+                        }
+                        <img src="@FileSrc" class="rounded" width="100" height="100" alt="@Html.DisplayFor(x=>x.Product.ImageUrl)" />
+
+                    </div>
+                }
+            </div>
             <hr />
         </div>
         <div row mb-3>

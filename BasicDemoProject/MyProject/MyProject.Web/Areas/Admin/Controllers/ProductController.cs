@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using MyProject.DataAccess.UnitOfWorks;
+using MyProject.Domain;
 using MyProject.Domain.ViewModels;
 
 namespace MyProject.Web.Areas.Admin.Controllers
@@ -53,11 +54,17 @@ namespace MyProject.Web.Areas.Admin.Controllers
             }
             else
             {
-                ProductVM.Product = _unitOfWork.ProductRepository.GetById(x => x.Id == id);
+                var DomainCategory = _unitOfWork.ProductRepository.GetById(x => x.Id == id);
                 if (ProductVM.Product == null)
                 {
                     return NotFound();
                 }
+
+                ProductVM.Product.Name = DomainCategory.Name;
+                ProductVM.Product.ImageUrl = DomainCategory.ImageUrl;
+                ProductVM.Product.FileData = DomainCategory.FileData;
+                ProductVM.Product.CreatedAt = DomainCategory.CreatedAt;
+
                 return View(ProductVM);
             }
         }
@@ -69,24 +76,38 @@ namespace MyProject.Web.Areas.Admin.Controllers
             string fileName = String.Empty;
             if (file != null)
             {
-                string uploadDir = Path.Combine(_webHostEnvironment.WebRootPath, "ProductImages");
-                fileName = Guid.NewGuid().ToString() + "_" + file.FileName;
-                string filePath = Path.Combine(uploadDir, fileName);
+                // string uploadDir = Path.Combine(_webHostEnvironment.WebRootPath, "Images");
+                // string filePath = Path.Combine(uploadDir, fileName);
 
-                if (ProductVM.Product.ImageUrl != null)
-                {
-                    var oldImage = Path.Combine(_webHostEnvironment.WebRootPath, ProductVM.Product.ImageUrl.TrimStart('\\'));
-                    if (System.IO.File.Exists(oldImage))
-                    {
-                        System.IO.File.Delete(oldImage);
-                    }
-                }
+                //if (ProductVM.Product.ImageUrl != null)
+                //{
+                //    var oldImage = Path.Combine(_webHostEnvironment.WebRootPath, ProductVM.Product.ImageUrl.TrimStart('\\'));
+                //    if (System.IO.File.Exists(oldImage))
+                //    {
+                //        System.IO.File.Delete(oldImage);
+                //    }
+                //}
 
-                using (var fileStream = new FileStream(filePath, FileMode.Create))
+                //using (var fileStream = new FileStream(filePath, FileMode.Create))
+                //{
+                //    file.CopyTo(fileStream);
+                //    ProductVM.Product.ImageUrl = fileName;
+                //}
+
+                //uploads file to database
+
+                
+
+                if (IsFileValid(file))
                 {
-                    file.CopyTo(fileStream);
+                    fileName = Guid.NewGuid().ToString() + "_" + file.FileName;
+                    ProductVM.Product.FileData = GetFileBytes(file);
+                    ProductVM.Product.ImageUrl = fileName;
                 }
-                ProductVM.Product.ImageUrl = @"\ProductImage\" + fileName;
+                else
+                {
+                    ModelState.AddModelError("Collection Document", "No Document Uploaded");
+                }
             }
 
             if (ProductVM.Product.Id == 0)
@@ -110,6 +131,38 @@ namespace MyProject.Web.Areas.Admin.Controllers
                 return RedirectToAction(nameof(Index));
             }
         }
+
+        #region File Convert by Bytes
+        private byte[] GetFileBytes(IFormFile file)
+        {
+            using (var memStream = new MemoryStream())
+            {
+                file.OpenReadStream().CopyTo(memStream);
+                return memStream.ToArray();
+            }
+        }
+        #endregion
+
+        #region FileType
+        private bool IsFileValid(IFormFile img)
+        {
+            if (img == null || img.Length < 0)
+            {
+                return false;
+            }
+
+            string fileName = img.FileName.ToLower();
+            if (fileName.LastIndexOf(".jpeg") <= 0 &&
+                fileName.LastIndexOf(".jpg") <= 0 &&
+                fileName.LastIndexOf(".png") <= 0 &&
+                fileName.LastIndexOf(".ppt") <= 0
+                )
+            {
+                return false;
+            }
+            return true;
+        }
+        #endregion
 
         #region DeleteAPI
 

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -17,6 +18,8 @@ namespace MyProject.Domain
         public string? ImageUrl { get; set; }
         public string? Description { get; set; }
         public double? Price { get; set; }
+        public byte[]? FileData { get; set; }
+        public DateTime CreatedAt { get; set; }
         public int? CategoryId { get; set; }
         [ValidateNever]
         public Category? Category { get; set; }

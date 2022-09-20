@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gm8q61gx6e7DwiOQ2hg0odqCw+m2zBuqnn4LCihBbZrMBG4PRtUl1FUOBQOV7AkwxCddkCflWkCvjO+LeQwxbA==",
+  "dgSpecHash": "32YHxfL685p+bigtbjLGtDxrg9lU5xl6JA9iv5cZ0ZCyRZmTMMIZc1YGLRvXxeIHngczZka3My4ZUj0t4fVWyw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\MySoft\\MyGitDemo\\BasicDemoProject\\MyProject\\MyProject.Web\\MyProject.Web.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\MySoft\\MyGitDemo\\Asp.Net6MVCFullDemoProject\\BasicDemoProject\\MyProject\\MyProject.Web\\MyProject.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
